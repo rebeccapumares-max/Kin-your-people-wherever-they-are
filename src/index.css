@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", ui-sans-serif, sans-serif;
+  
+  /* Natural Tones Color Palette */
+  --color-natural-bg: #FDFBF7;
+  --color-natural-text: #2C2C2C;
+  --color-natural-muted: #8E8A82;
+  --color-natural-border: #EAE2D9;
+  --color-natural-light: #F5F2ED;
+  --color-natural-dark: #2C2C2C;
+  
+  /* Primary Tones */
+  --color-sage: #5A5A40;
+  --color-terracotta: #D97757;
+  --color-gold: #C5A059;
+  --color-natural-map: #EAE7E0;
+}
+
+@utility serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+@utility grid-cols-24 {
+  grid-template-columns: repeat(24, minmax(0, 1fr));
+}
+
+@utility glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@utility organic-blob {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+@utility map-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5A5A40;
+  border: 2px solid #FDFBF7;
+  position: absolute;
+}
+
+@utility green-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  display: inline-block;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+@utility moon-icon {
+  font-size: 10px;
+  filter: grayscale(1);
+  opacity: 0.6;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Kin",
+  "description": "A private, screen-level digital sanctuary for modern families. Connect via city map pins, memory shelves, recipe vaults, slow postcards, voice chains, and visit funds.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
